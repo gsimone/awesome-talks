@@ -52,6 +52,7 @@ const Thumbnail = styled.img`
     display: block;
     width: 100%;
     height: 100%;
+    cursor: pointer;
 `
 
 const Image = styled.div`
