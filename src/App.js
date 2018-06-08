@@ -7,6 +7,7 @@ import Tags from './Pages/Tags'
 import Tag from './Pages/Tag'
 import Favorites from './Pages/Favorites'
 import Video from './Pages/Video'
+import FourOFour from './Pages/FourOFour'
 
 import './Utils/global-styles'
 import './Utils/icons'
@@ -20,5 +21,6 @@ export default () => (
         <Route exact path="/speakers" component={Speakers} />
         <Route exact path="/speaker/:speaker" component={Speaker} />
         <Route exact path="/video/:video" component={Video} />
+        <Route component={FourOFour} />
     </Switch>
 )
