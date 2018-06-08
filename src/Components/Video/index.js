@@ -120,7 +120,7 @@ export class SimpleVideo extends Component {
                     </Flex>
                     <Name
                         className="no-hover"
-                        to={makeLink('video', name)}
+                        to={makeLink('video', id)}
                         title={name}
                     >
                         {this.videoTitle(name)}
